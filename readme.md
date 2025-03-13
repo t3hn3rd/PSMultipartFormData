@@ -1,5 +1,8 @@
 # 📄 PSMultipartFormData
 
+[![PSMimeTypes PSGallary Version](https://img.shields.io/powershellgallery/v/PSMultipartFormData?label="PSGallery")](https://www.powershellgallery.com/packages/PSMultipartFormData/) [![PSGallery Downloads](https://img.shields.io/powershellgallery/dt/PSMultipartFormData?label=PSGallery%20Downloads)](https://www.powershellgallery.com/packages/PSMultipartFormData/)
+
+
 ## 🌍 Overview
 
 **PSMultiPartFormData** is a PowerShell module that provides functionality for constructing and managing multipart form data for HTTP requests. This module helps in adding fields, files, and JSON objects to a form data body.
