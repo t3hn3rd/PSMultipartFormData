@@ -61,6 +61,7 @@ jobs:
             Write-Host "✅ Would have published module to PSGallery."
           } else {
             Write-Host "⚙️ Publishing module to PSGallery..."
+            Install-Module PSMimeTypes -Force
             $NuGetApiKey = "$($env:PS_GALLERY_KEY)"
             Publish-Module -Path PSMultipartFormData -NuGetApiKey $NuGetApiKey -Repository PSGallery
             Write-Host "✅ Module published to PSGallery."
